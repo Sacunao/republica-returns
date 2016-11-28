@@ -1,71 +1,66 @@
-@charset "UTF-8";
 /*Backgrounds*/
 /*Colores*/
 /*Others*/
 /*General*/
-.container {
-  width: 80%; }
-
 body {
   font-family: PT Sans;
   font-size: 16px; }
 
+.container {
+  width: 80%; }
+
 /*HEADER*/
-header {
-  /*┬À┬À┬À┬À┬À┬ÀPRIMERA SECCION (DN)┬À┬À┬À┬À┬À┬À*/
-  /*****nav******/
-  /****Tema del dia*****/ }
-  header .publicidad {
-    background-color: #f0f0f0;
-    padding: 1%;
-    font-weight: bold;
-    font-size: 0.8em; }
-  header .banner {
-    width: 100%; }
-  header .cizquierda {
-    padding: 1.5% 0 0 0; }
-  header .cderecha {
-    text-align: right;
-    padding: 1% 0 0 0; }
-  header .otrosDiarios a {
-    color: #f0f0f0;
-    font-weight: bold;
-    margin-right: 1%;
-    text-decoration: none; }
-  header #btn-suscribe {
-    background-color: #C00101;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-size: 1em;
-    padding: 0% 3%; }
-  header .headerIconos {
-    display: inline;
-    margin: 0 1.5%; }
-  header .ifb {
+header .publicidad {
+  background-color: #f0f0f0;
+  padding: 1%;
+  font-weight: bold;
+  font-size: 0.8em; }
+header .banner {
+  width: 100%; }
+header .cizquierda {
+  padding: 1.5% 0 0 0; }
+header .cderecha {
+  text-align: right;
+  padding: 1% 0 0 0; }
+header .otrosDiarios a {
+  color: #f0f0f0;
+  font-weight: bold;
+  margin-right: 1%;
+  text-decoration: none; }
+header #btn-suscribe {
+  background-color: #C00101;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 0% 3%; }
+header .headerIconos {
+  display: inline;
+  margin: 0 1.5%; }
+  header .headerIconos .ifb {
     color: #00468C;
     font-size: 1em;
     margin: 1%; }
-  header .itw {
+  header .headerIconos .itw {
     color: #009BCE;
     font-size: 1em;
     margin: 1%; }
-  header .igmail {
+  header .headerIconos .igmail {
     color: #9B0505;
     font-size: 1em;
     margin: 1%; }
-  header .imsj {
+  header .headerIconos .imsj {
     color: #FFC92E;
     font-size: 1em;
     margin: 1%; }
-  header .irs {
-    color: orange;
+  header .headerIconos .irs {
+    color: #FFA515;
     font-size: 1em;
     margin: 1%; }
-  header .buscador {
-    display: inline-block;
-    border-left: 0.5px solid gray;
-    border-right: 0.5px solid gray;
-    padding: 0 1%; }
+header .buscador {
+  display: inline-block;
+  border-left: 0.5px solid gray;
+  border-right: 0.5px solid gray;
+  padding: 0 1%; }
   header .buscador input {
     background-color: transparent;
     border: none;
@@ -73,185 +68,125 @@ header {
   header .buscador a .ilupa {
     color: gray;
     margin-right: 3%; }
-  header .laRepublica {
-    padding: 2% 0; }
-  header .cuno {
-    padding: 2%; }
-  header .cdos {
-    padding: 0; }
-  header .manta {
-    padding: 1.5% 0;
-    position: relative; }
-  header .display-flex {
-    display: flex;
-    ┬á┬á┬áalign-items: center;
-    ┬á┬á┬á┬ájustify-content: center; }
-  header .capsulaCentral {
-    border: 0.3px solid gray;
-    border-bottom: 4px solid #8C0000;
-    padding: 10% 2.5% 2% 2.5%;
-    text-align: center; }
-  header .laRepublica .capsulaCentral a {
-    color: black;
-    font-weight: bold; }
-  header .cuadradoGuinda {
-    background-color: #8C0000;
-    font-weight: bold;
-    color: white;
-    padding: 0.8% 1%;
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    left: 43%; }
-  header .cuadroDere {
-    text-align: center;
-    border-top: 0.5px solid gray;
-    border-bottom: 0.5px solid gray; }
-  header .cuadroDere .texto {
-    background-color: white;
-    border-radius: 5%;
-    display: inline-block;
-    padding: 5% 7%; }
-  header .cuadroDere .texto .negrita {
-    font-weight: bold;
-    color: black; }
-  header .cuadroDere .texto a {
-    color: black; }
-  header .image-right {
-    width: 43px;
-    position: relative;
-    top: -10px; }
-  header .image-left {
-    width: 37px;
-    padding: 10px;
-    background-color: #2C3238; }
-  header .logo-republica {
-    padding-top: 11%; }
-  header .miniatura-columna-diaria {
-    background-color: white;
-    border-top: 1px solid #7D7D7D;
-    border-left: 1px solid #7D7D7D;
-    border-right: 1px solid #7D7D7D;
-    border-bottom: 3px solid #AA1801;
-    height: 55px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    font-weight: bold;
-    text-align: center; }
-  header .miniatura-columna-diaria p {
-    padding-top: 9%;
-    font-size: 13px; }
-  header .titulo-miniatura {
-    color: #FFFFFF;
-    background-color: #C00101;
-    font-size: 16px;
-    height: 19px;
-    width: 30%;
-    margin: -4% 35%; }
-  header .seccion-editorial {
-    background-color: #111417;
-    position: relative;
-    margin-top: 28px; }
-  header .miniatura-editorial {
-    background-color: white;
-    border: 1px solid #7D7D7D;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-    height: 55px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center; }
-  header .miniatura-editorial dfn {
+header .editorial-header .logo-republica {
+  padding-top: 11%; }
+header .editorial-header .miniatura-columna-diaria {
+  background-color: white;
+  border-top: 1px solid #7D7D7D;
+  border-left: 1px solid #7D7D7D;
+  border-right: 1px solid #7D7D7D;
+  border-bottom: 3px solid #AA1801;
+  height: 55px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  text-align: center; }
+header .editorial-header .miniatura-columna-diaria p {
+  padding-top: 9%;
+  font-size: 13px; }
+header .editorial-header .titulo-miniatura {
+  color: #FFFFFF;
+  background-color: #C00101;
+  height: 19px;
+  width: 30%;
+  margin: -4% 35%; }
+header .editorial-header .seccion-editorial {
+  background-color: #111417;
+  position: relative;
+  margin-top: 28px; }
+header .editorial-header .miniatura-editorial {
+  background-color: #FFFFFF;
+  border: 1px solid #7D7D7D;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  height: 55px;
+  font-weight: bold;
+  text-align: center; }
+  header .editorial-header .miniatura-editorial dfn {
     font-size: 14px; }
-  header .miniatura-editorial a {
+  header .editorial-header .miniatura-editorial a {
     text-decoration: none;
     color: #000000; }
-  header .miniatura-editorial a:hover {
+  header .editorial-header .miniatura-editorial a:hover {
     text-decoration: underline;
     color: #000000; }
-  header .editorial-columna {
-    position: absolute;
-    top: 5%; }
-  header .autor-columna {
-    position: absolute;
-    top: -8%;
-    left: 87%; }
-  header .nav-tabs {
-    font-family: Oswald;
-    background-color: #C00101; }
-  header .nav-tabs > li > a {
-    border-radius: 0px;
-    color: #fff;
+header .editorial-header .editorial-columna {
+  position: absolute;
+  top: 5%; }
+header .editorial-header .autor-columna {
+  position: absolute;
+  top: -8%;
+  left: 87%; }
+header .nav-tabs {
+  font-family: Oswald;
+  background-color: #C00101; }
+  header .nav-tabs li > a {
+    color: #FFFFFF;
     font-size: 0.9em;
     margin: 0px;
     text-transform: uppercase; }
-  header .nav-tabs > li > a:hover {
+  header .nav-tabs li > a:hover {
     background-color: #E91717;
     border: none; }
-  header .nav-tabs > li.active > a {
+  header .nav-tabs li.active > a {
     background-color: #113673;
     border: none;
-    color: #fff; }
-  header .tema-dia {
-    padding: 0;
-    margin: 5px 0px; }
-  header .tema {
-    background-color: #000;
-    border-radius: 5px 0px 0px 5px;
-    padding: 1.2% 0%;
-    text-align: center; }
-  header .tm-title {
-    font-family: Oswald;
-    color: #fff;
-    margin-bottom: 0;
-    font-size: 0.8em; }
-  header .lista {
-    background-color: #f0f0f0;
-    border-radius: 0px 5px 5px 0px;
-    text-align: center;
-    padding: 1% 0%; }
+    color: #FFFFFF; }
+  header .nav-tabs .champions {
+    padding: 11.5%; }
+header .tema-dia {
+  padding: 0;
+  margin: 5px 0px; }
+header .tema {
+  background-color: #000000;
+  border-radius: 5px 0px 0px 5px;
+  padding: 1.2% 0%;
+  text-align: center; }
+header .tm-title {
+  font-family: Oswald;
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 0.8em; }
+header .lista {
+  background-color: #f0f0f0;
+  border-radius: 0px 5px 5px 0px;
+  text-align: center;
+  padding: 1% 0%; }
   header .lista a {
-    color: #000;
+    color: #000000;
     padding: 0% 1%; }
-  header .banner-header {
-    width: 97%;
-    margin-bottom: 1%; }
+header .banner-header {
+  width: 97%;
+  margin-bottom: 1%; }
 
-/****FOOTER******/
-.ft-logo {
+/*FOOTER*/
+footer .ft-logo {
   padding: 7% 0% 7% 10%; }
-
-.ft-big {
+footer .ft-big {
   background-color: #E3E3E3;
   padding-top: 2%; }
-
-.footer-menu {
+footer .footer-menu {
   border-left: 1px solid #eee; }
-
-.footer-menu a {
+footer .footer-menu a {
   display: block;
   font-size: 0.9em;
-  color: #6E6E6E; }
-
-.enlace {
+  color: #7d7d7d; }
+footer .enlace {
   padding-bottom: 1%;
   margin: auto; }
-
-.enlace a {
+footer .enlace a {
   color: #848484;
   font-size: 12px;
   padding-right: 0.8%;
   border-right: 1px solid #848484; }
-
-.ft-small {
-  background-color: #1A1A1A;
+footer .ft-small {
+  background-color: #000000;
   padding: 2% 0%; }
-
-.ft-small-text {
+footer .ft-small-text {
   color: white;
   text-align: center; }
 
-/* MEDIAQUERY */
+/*MEDIAQUERY*/
 @media (max-width: 480px) {
   body {
     font-size: 12px; }

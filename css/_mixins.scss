@@ -1,4 +1,10 @@
-@mixin boton($radius){
+@mixin boton ($radius){
 	border-radius: $radius;
 	color: $color-white;
+}
+
+@mixin redesIcons ($color-redes){
+	color: $color-redes;
+	font-size: 1em;
+	margin:1%;
 }
