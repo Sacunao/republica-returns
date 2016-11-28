@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*Backgrounds*/
+/*Colores*/
+/*Others*/
 /*General*/
 .container {
   width: 80%; }
@@ -7,7 +10,7 @@ body {
   font-family: PT Sans;
   font-size: 16px; }
 
-/*┬À┬À┬À┬À┬À┬ÀHEADER┬À┬À┬À┬À┬À┬À*/
+/*HEADER*/
 header {
   /*┬À┬À┬À┬À┬À┬ÀPRIMERA SECCION (DN)┬À┬À┬À┬À┬À┬À*/
   /*****nav******/
@@ -25,14 +28,14 @@ header {
     text-align: right;
     padding: 1% 0 0 0; }
   header .otrosDiarios a {
-    color: gray;
+    color: #f0f0f0;
     font-weight: bold;
     margin-right: 1%;
     text-decoration: none; }
-  header header .boton {
-    background-color: #D72348;
+  header #btn-suscribe {
+    background-color: #C00101;
     border-radius: 5px;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 1em;
     padding: 0% 3%; }
   header .headerIconos {
@@ -140,7 +143,7 @@ header {
     font-size: 13px; }
   header .titulo-miniatura {
     color: #FFFFFF;
-    background-color: #BA1414;
+    background-color: #C00101;
     font-size: 16px;
     height: 19px;
     width: 30%;

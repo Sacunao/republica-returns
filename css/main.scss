@@ -1,4 +1,5 @@
 @import "_variables";
+@import "_mixins";
 
 /*General*/
 .container {
@@ -10,16 +11,15 @@ body {
 	font-size: 16px; 
 }
 
-/*······HEADER······*/
+/*HEADER*/
 header{
-	
-    
     .publicidad{
-       background-color: $bg-gray-light;
-	padding: 1%;
-	font-weight: bold;
-	font-size: 0.8em; 
+        background-color: $bg-gray-light;
+        padding: 1%;
+        font-weight: bold;
+        font-size: 0.8em; 
     }
+    
     .banner{
         width: 100%;
     }
@@ -28,24 +28,24 @@ header{
         padding:1.5% 0 0 0;
     }
     
-     .cderecha{
+    .cderecha{
         text-align: right;
         padding:1% 0 0 0;
     }
     
     .otrosDiarios a{
-	color: gray;
-	font-weight: bold;
-	margin-right: 1%;
-	text-decoration: none;
-}
-header .boton{
-	background-color: #D72348;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 1em;
-	padding: 0% 3%;
-}
+		color: $bg-gray-light;
+		font-weight: bold;
+		margin-right: 1%;
+		text-decoration: none;
+	}
+
+	#btn-suscribe{
+		background-color: $color-republica;
+		@include boton(5px);
+		font-size: 1em;
+		padding: 0% 3%;
+	}
 
 .headerIconos{
 	display: inline;
@@ -180,7 +180,7 @@ header .boton{
 }
 .titulo-miniatura {
   color: #FFFFFF;
-  background-color: #BA1414;
+  background-color: $color-republica;
   font-size: 16px;
   height: 19px;
   width: 30%;
@@ -227,7 +227,7 @@ header .boton{
 /*****nav******/
 .nav-tabs {
 	font-family: Oswald;
-	background-color: #C00101;
+	background-color: $color-republica;
 }
 .nav-tabs > li > a {
 	border-radius: 0px;
