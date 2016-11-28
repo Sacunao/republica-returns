@@ -1,0 +1,326 @@
+@import "_variables";
+
+/*General*/
+.container {
+	width: 80%;
+}
+
+body {
+	font-family: PT Sans;
+	font-size: 16px; 
+}
+
+/*······HEADER······*/
+header{
+	
+    
+    .publicidad{
+       background-color: $bg-gray-light;
+	padding: 1%;
+	font-weight: bold;
+	font-size: 0.8em; 
+    }
+    .banner{
+        width: 100%;
+    }
+    
+    .cizquierda{
+        padding:1.5% 0 0 0;
+    }
+    
+     .cderecha{
+        text-align: right;
+        padding:1% 0 0 0;
+    }
+    
+    .otrosDiarios a{
+	color: gray;
+	font-weight: bold;
+	margin-right: 1%;
+	text-decoration: none;
+}
+header .boton{
+	background-color: #D72348;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1em;
+	padding: 0% 3%;
+}
+
+.headerIconos{
+	display: inline;
+	margin: 0 1.5%;
+}
+.ifb{
+	color: #00468C;
+	font-size: 1em;
+	margin:1%;
+}
+.itw{
+	color:#009BCE;
+	font-size: 1em;
+	margin:1%;
+}
+.igmail{
+	color: #9B0505;
+	font-size: 1em;
+	margin:1%;
+}
+.imsj{
+	color: #FFC92E;
+	font-size: 1em;
+	margin:1%;
+}
+.irs{
+	color: orange;
+	font-size: 1em;
+	margin:1%;
+}
+.buscador{
+	display: inline-block;
+	border-left: 0.5px solid gray;
+	border-right: 0.5px solid gray;
+	padding:0 1%;
+}
+.buscador input{
+	background-color: transparent;
+	border:none;
+	width: 80%;
+}
+.buscador a .ilupa{
+	color: gray;
+	margin-right: 3%;
+}
+/*······PRIMERA SECCION (DN)······*/
+.laRepublica{
+	padding: 2% 0;
+}
+.cuno {
+	padding: 2%}
+.cdos {
+	padding: 0;
+}
+.manta{
+	padding: 1.5% 0;
+	position: relative;
+}
+.display-flex{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.capsulaCentral{
+	border: 0.3px solid gray;
+	border-bottom: 4px solid #8C0000;
+	padding: 10% 2.5% 2% 2.5%;
+	text-align: center;
+}
+.laRepublica .capsulaCentral a{
+	color: black;
+	font-weight: bold;
+}
+.cuadradoGuinda{
+	background-color: #8C0000;
+	font-weight: bold;
+	color: white;
+	padding: 0.8% 1%;
+	display: inline-block;
+	position: absolute;
+	top:0px;
+	left: 43%;
+}
+.cuadroDere{
+	text-align: center;
+	border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
+}
+.cuadroDere .texto{
+	background-color: white;
+	border-radius: 5%;
+	display: inline-block;
+	padding: 5% 7%;
+}
+.cuadroDere .texto .negrita{
+	font-weight: bold;
+	color: black;
+}
+.cuadroDere .texto a{
+	color: black;
+}
+.image-right {
+	width: 43px;
+  position: relative;
+  top: -10px;
+}
+.image-left {
+	  width: 37px;
+    padding: 10px;
+    background-color: #2C3238;
+}
+
+
+.logo-republica{
+ padding-top: 11%;
+}
+.miniatura-columna-diaria{
+  background-color: white;
+  border-top: 1px solid #7D7D7D;
+  border-left: 1px solid #7D7D7D;
+  border-right: 1px solid #7D7D7D;
+  border-bottom: 3px solid #AA1801;
+  height: 55px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  text-align: center;
+}
+.miniatura-columna-diaria p {
+  padding-top: 9%;
+  font-size: 13px;
+}
+.titulo-miniatura {
+  color: #FFFFFF;
+  background-color: #BA1414;
+  font-size: 16px;
+  height: 19px;
+  width: 30%;
+  margin: -4% 35%;
+}
+
+.seccion-editorial  {
+  background-color: #111417;
+  position: relative;
+  margin-top: 28px;
+}
+.miniatura-editorial{
+  background-color: white;
+  border: 1px solid #7D7D7D;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.miniatura-editorial dfn{
+  font-size: 14px;
+}
+.miniatura-editorial a{
+  text-decoration: none;
+  color: #000000;
+}
+.miniatura-editorial a:hover{
+  text-decoration: underline;
+  color: #000000;
+}
+.editorial-columna {
+  position: absolute;
+  top: 5%;
+}
+.autor-columna {
+  position: absolute;
+  top: -8%;
+  left: 87%;
+}
+
+
+/*****nav******/
+.nav-tabs {
+	font-family: Oswald;
+	background-color: #C00101;
+}
+.nav-tabs > li > a {
+	border-radius: 0px;
+	color: #fff;
+	font-size: 0.9em;
+	margin: 0px;
+	text-transform: uppercase;
+}
+.nav-tabs > li > a:hover {
+	background-color: #E91717;
+	border: none;
+}
+.nav-tabs > li.active > a {
+	background-color: #113673;
+	border: none;
+	color: #fff;
+}
+
+/****Tema del dia*****/
+.tema-dia {
+	padding: 0;
+	margin: 5px 0px;	
+}
+.tema {
+	background-color: #000;
+	border-radius: 5px 0px 0px 5px;
+	padding: 1.2% 0%;
+	text-align: center;
+}
+.tm-title {
+	font-family: Oswald;
+	color: #fff;
+	margin-bottom: 0;
+	font-size: 0.8em;
+}
+.lista {
+	background-color: $bg-gray-light;
+	border-radius: 0px 5px 5px 0px;
+	text-align: center;
+	padding: 1% 0%;
+}
+.lista a {
+	color: #000;
+	padding: 0% 1%;
+}
+.banner-header {
+	width: 97%;
+	margin-bottom: 1%;
+}
+
+} 
+
+
+/****FOOTER******/
+.ft-logo {
+	padding: 7% 0% 7% 10%;
+}
+.ft-big {
+	background-color: #E3E3E3;
+	padding-top: 2%;
+}
+.footer-menu {
+	border-left: 1px solid #eee;
+}
+.footer-menu a {
+	display: block;
+	font-size: 0.9em;
+	color: #6E6E6E;
+}
+.enlace {
+	padding-bottom: 1%;
+	margin: auto;
+}
+.enlace a {
+	color: #848484;
+	font-size: 12px;
+	padding-right: 0.8%;
+	border-right: 1px solid #848484;
+}
+.ft-small{
+	background-color: #1A1A1A;
+	padding: 2% 0%;
+}
+.ft-small-text {
+	color: white;
+	text-align: center;
+}
+/* MEDIAQUERY */
+@media (max-width: 480px) {
+	body {
+		font-size: 12px;
+	}
+	.tema {
+	padding: 1.5% 0%;
+	}
+}
