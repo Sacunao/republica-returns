@@ -12,3 +12,10 @@
 @mixin fWeight($peso){
 	font-weight: $peso;
 }
+
+@mixin borders($top, $left, $right, $bottom, $color-border-t, $color-border-l, $color-border-r, $color-border-b){
+	border-top: $top solid $color-border-t;
+	border-left: $left solid $color-border-l;
+	border-right: $right solid $color-border-r;
+	border-bottom: $bottom solid $color-border-b;
+}

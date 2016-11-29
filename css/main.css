@@ -58,8 +58,10 @@ header .headerIconos {
     margin: 1%; }
 header .buscador {
   display: inline-block;
-  border-left: 0.5px solid gray;
-  border-right: 0.5px solid gray;
+  border-top: 0px solid #707070;
+  border-left: 0.5px solid #707070;
+  border-right: 0.5px solid #707070;
+  border-bottom: 0px solid #707070;
   padding: 0 1%; }
   header .buscador input {
     background-color: transparent;
@@ -72,10 +74,10 @@ header .editorial-header .logo-republica {
   padding-top: 11%; }
 header .editorial-header .miniatura-columna-diaria {
   background-color: white;
-  border-top: 1px solid #7D7D7D;
-  border-left: 1px solid #7D7D7D;
-  border-right: 1px solid #7D7D7D;
-  border-bottom: 3px solid #AA1801;
+  border-top: 1px solid #707070;
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
+  border-bottom: 3px solid #C00101;
   height: 55px;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -96,7 +98,10 @@ header .editorial-header .seccion-editorial {
   margin-top: 28px; }
 header .editorial-header .miniatura-editorial {
   background-color: #FFFFFF;
-  border: 1px solid #7D7D7D;
+  border-top: 1px solid #707070;
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
+  border-bottom: 1px solid #707070;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   height: 55px;
@@ -144,7 +149,7 @@ header .tema {
   text-align: center; }
 header .tm-title {
   font-family: Oswald;
-  color: #fff;
+  color: #FFFFFF;
   margin-bottom: 0;
   font-size: 0.8em; }
 header .lista {
@@ -173,8 +178,10 @@ header .banner-header {
   .container-form .textArea {
     width: 100%;
     background-color: #f0f0f0;
-    border: none;
     border-top: 2px solid #707070;
+    border-left: 0px solid #707070;
+    border-right: 0px solid #707070;
+    border-bottom: 0px solid #707070;
     height: 250px;
     padding: 2%;
     resize: none;
@@ -204,7 +211,7 @@ footer .ft-big {
   background-color: #E3E3E3;
   padding-top: 2%; }
 footer .footer-menu {
-  border-left: 1px solid #eee; }
+  border-left: 1px solid #FFFFFF; }
 footer .footer-menu a {
   display: block;
   font-size: 0.9em;

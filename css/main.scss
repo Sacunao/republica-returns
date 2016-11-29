@@ -70,8 +70,7 @@ header{
 
 	.buscador{
 		display: inline-block;
-		border-left: 0.5px solid gray;
-		border-right: 0.5px solid gray;
+		@include borders(0px, 0.5px, 0.5px, 0px, $bg-gray-darken, $bg-gray-darken, $bg-gray-darken, $bg-gray-darken);
 		padding:0 1%;
 
 		input{
@@ -93,10 +92,7 @@ header{
 
 		.miniatura-columna-diaria{
 			background-color: white;
-			border-top: 1px solid #7D7D7D;
-			border-left: 1px solid #7D7D7D;
-			border-right: 1px solid #7D7D7D;
-			border-bottom: 3px solid #AA1801;
+			@include borders (1px, 1px, 1px, 3px, $bg-gray-darken, $bg-gray-darken, $bg-gray-darken, $color-republica);
 			height: 55px;
 			margin-top: 10%;
 			margin-bottom: 5%;
@@ -125,7 +121,7 @@ header{
 
 		.miniatura-editorial{
 			background-color: $color-white;
-			border: 1px solid #7D7D7D;
+			@include borders (1px, 1px, 1px, 1px, $bg-gray-darken,$bg-gray-darken, $bg-gray-darken,$bg-gray-darken);
 			border-top-left-radius: 40px;
 			border-bottom-left-radius: 40px;
 			height: 55px;
@@ -195,7 +191,7 @@ header{
 
 	.tm-title {
 		font-family: Oswald;
-		color: #fff;
+		color: $color-white;
 		margin-bottom: 0;
 		font-size: 0.8em;
 	}
@@ -237,8 +233,7 @@ header{
 	.textArea {
 		width: 100%;
 		background-color: $bg-gray-light;
-		border: none;
-		border-top: 2px solid $bg-gray-darken;
+		@include borders (2px, 0px, 0px,0px, $bg-gray-darken, $bg-gray-darken, $bg-gray-darken,$bg-gray-darken);
 		height: 250px;
 	  	padding: 2%;
 	  	resize: none;
@@ -289,7 +284,7 @@ footer{
 		padding-top: 2%;
 	}
 	.footer-menu {
-		border-left: 1px solid #eee;
+		border-left: 1px solid $color-white;
 	}
 	.footer-menu a {
 		display: block;
