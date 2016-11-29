@@ -4,6 +4,8 @@
 
 Link de la página: https://sacunao.github.io/republica-returns/
 
+![Imagen](http://4.1m.yt/JfQ_b9c.gif "Imagen")
+
 ##1. OBJETIVO
 
 Aplicar sass en la creación de una página.
