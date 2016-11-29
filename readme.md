@@ -4,8 +4,6 @@
 
 Link de la página: https://sacunao.github.io/la-republica/
 
-##PLANEACIÓN DE PROYECTO
-
 ##1. OBJETIVO
 
 Aplicar sass en la creación de una página.
@@ -26,10 +24,11 @@ Debido a que el tema era nuevo se decidio repartir el trabajo por parejas y ten�
 
 ###USO DE MIXINS y VARIABLES
 
-Se uso mixins en el header, en específico los iconos de las redes, para evitar el código repetitivo y sólo modificar el color. También se utilizo para el formato de botones.
+Se uso mixins en el header, en específico los iconos de las redes, para evitar el código repetitivo y sólo modificar el color. También se utilizo para el formato de botones y los bordes.
 
-![Imagen](http://4.1m.yt/3Gl7G0.png "Imagen")
+![Imagen](http://3.1m.yt/qI0A8hi.png "Imagen")
 
 En variables elegimos colores que usamos en la paleta, para las varaciones de color utlizamos el darken y el lighten.
 
-![Imagen](http://4.1m.yt/PMfLz7N.png "Imagen")
+![Imagen](http://3.1m.yt/_PQUCb4.png "Imagen")
+
