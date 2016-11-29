@@ -8,3 +8,7 @@
 	font-size: 1em;
 	margin:1%;
 }
+
+@mixin fWeight($peso){
+	font-weight: $peso;
+}
