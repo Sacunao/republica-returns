@@ -13,6 +13,7 @@ body {
 
 /*HEADER*/
 header{
+
     .publicidad{
         background-color: $bg-gray-light;
         padding: 1%;
@@ -78,13 +79,14 @@ header{
 			border:none;
 			width: 80%;
 		}
+
 		a .ilupa{
 			color: gray;
 			margin-right: 3%;
 		}
 	}
-	.editorial-header{
 
+	.editorial-header{
 		.logo-republica{
 			padding-top: 11%;
 		}
@@ -220,6 +222,7 @@ header{
 /*FOOTER*/
 
 footer{
+
 	.ft-logo {
 		padding: 7% 0% 7% 10%;
 	}
@@ -234,23 +237,27 @@ footer{
 		display: block;
 		font-size: 0.9em;
 		color: $bg-gray-darken;
+		padding-bottom: 1%;
+		margin: auto;
 	}
+
+	
 	.enlace {
 		padding-bottom: 1%;
 		margin: auto;
 	}
 	.enlace a {
-		color: #848484;
+		color: $bg-gray-darken;
 		font-size: 12px;
 		padding-right: 0.8%;
-		border-right: 1px solid #848484;
+		border-right: 1px solid $bg-gray-darken;
 	}
 	.ft-small{
 		background-color: $color-black;
 		padding: 2% 0%;
 	}
 	.ft-small-text {
-		color: white;
+		color: $color-white;
 		text-align: center;
 	}
 }
