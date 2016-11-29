@@ -22,7 +22,7 @@ header .cizquierda {
 header .cderecha {
   text-align: right;
   padding: 1% 0 0 0; }
-header .otrosDiarios a {
+header .diarios a {
   color: #f0f0f0;
   font-weight: bold;
   margin-right: 1%;
@@ -129,7 +129,8 @@ header .nav-tabs {
     color: #FFFFFF;
     font-size: 0.9em;
     margin: 0px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 10px 15px; }
   header .nav-tabs li > a:hover {
     background-color: #E91717;
     border: none; }
@@ -138,7 +139,7 @@ header .nav-tabs {
     border: none;
     color: #FFFFFF; }
   header .nav-tabs .champions {
-    padding: 11.5%; }
+    padding: 11px 15px; }
 header .tema-dia {
   padding: 0;
   margin: 5px 0px; }
@@ -238,6 +239,9 @@ footer .ft-small-text {
   body {
     font-size: 12px; }
 
+  .header .tm-title {
+    font-size: 6px; }
+
   .tema {
     padding: 1.5% 0%; } }
 /*RESPONSIVE TABLET*/
@@ -249,12 +253,11 @@ footer .ft-small-text {
   .container-form {
     margin: auto;
     padding: 0 20px; }
+    .container-form h1, .container-form p {
+      margin: auto;
+      padding: 10px 20px; }
 
   .right {
-    float: none; }
-
-  h1, p {
-    margin: auto;
-    padding: 10px 20px; } }
+    float: none; } }
 
 /*# sourceMappingURL=main.css.map */

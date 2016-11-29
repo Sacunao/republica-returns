@@ -13,7 +13,6 @@ body {
 
 /*HEADER*/
 header{
-
     .publicidad{
         background-color: $bg-gray-light;
         padding: 1%;
@@ -34,7 +33,7 @@ header{
         padding:1% 0 0 0;
     }
     
-    .otrosDiarios a{
+    .diarios a{
 		color: $bg-gray-light;
 		@include fWeight(bold);
 		margin-right: 1%;
@@ -162,6 +161,7 @@ header{
 			font-size: 0.9em;
 			margin: 0px;
 			text-transform: uppercase;
+            padding: 10px 15px;
 		}
 		li > a:hover {
 			background-color: #E91717;
@@ -174,7 +174,7 @@ header{
 		}
 
 		.champions{
-			padding: 11.5%;
+            padding: 11px 15px;
 		}
 	}
 	
@@ -267,7 +267,6 @@ header{
 		margin-bottom:30px;
 
 	}
-
 }
 
 /*FOOTER*/
@@ -318,6 +317,13 @@ footer{
 	body {
 		font-size: 12px;
 	}
+    
+    .header{
+        .tm-title {
+            font-size: 6px;
+        }   
+    }
+    
 	.tema {
 		padding: 1.5% 0%;
 	}
@@ -333,12 +339,14 @@ footer{
 	.container-form {
 		margin: auto;
   		padding: 0 20px;
+        
+        h1 , p {
+            margin: auto;
+            padding: 10px 20px;
+        }
 	}
 	.right {
 		float: none;
 	}
-	h1 , p {
-		margin: auto;
-		padding: 10px 20px;
-	}
+	
 }
