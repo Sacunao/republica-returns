@@ -220,8 +220,51 @@ header{
 
 /*FORMULARIO*/
 
+h2 {
+	margin-top: 50px;
+}
 
+li {
+	list-style: none;
+}
 
+ul {
+	padding-left: 0;
+}
+
+label  {
+	font-weight: normal;
+}
+
+.container-form {
+	padding: 0 200px;
+	margin: auto;
+}
+
+.w-input {
+	background-color: $bg-gray-light;
+	width: 100%;
+	margin-top: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+
+.textArea {
+	width: 100%;
+	background-color: $bg-gray-light;
+	border: none;
+	border-top: 2px solid $bg-gray-darken;
+	height: 250px;
+  	padding: 2%;
+  	resize: none;
+  	margin: 30px 0;
+}
+
+.right {
+	float: right;
+	clear: both;
+}
 
 /*FOOTER*/
 
@@ -273,5 +316,25 @@ footer{
 	}
 	.tema {
 		padding: 1.5% 0%;
+	}
+}
+/*RESPONSIVE TABLET*/
+@media (min-width: 768px) and (max-width: 992px) {
+	.container-form {
+  		padding: 0 80px;
+  	}
+}
+/*RESPONSIVE MOVILE*/
+@media (max-width: 767px) {
+	.container-form {
+		margin: auto;
+  		padding: 0 20px;
+	}
+	.right {
+		float: none;
+	}
+	h1 , p {
+		margin: auto;
+		padding: 10px 20px;
 	}
 }
